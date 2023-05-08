@@ -97,7 +97,7 @@ public class Encrypto {
                 printProgramOptions();
                 input = Integer.parseInt(scan.nextLine());
             } else if (input == 3) {
-                ArrayList<String> inputs = inputFileSourceAndDestination(scan, 2);
+                ArrayList<String> inputs = inputFileSourceAndDestination(scan, 3);
 //                int key = CaesarCipherList.bruteForceAttack();
                 try (BufferedReader br = new BufferedReader(new FileReader(inputs.get(0)));
                      BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(inputs.get(1) + "\\bruteForce.txt"))) {
