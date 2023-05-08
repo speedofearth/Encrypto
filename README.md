@@ -4,7 +4,8 @@
 
 ## Description
 
-A terminal cryptanalysis program project for first module of Code Gym Course
+A terminal cryptanalysis program using Caesar Cipher <br>
+Finished project for first module of Code Gym Java University <br>
 Developed by Soi
 
 ### How to Run
